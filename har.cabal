@@ -4,7 +4,12 @@
 name:                har
 version:             0.1.1.0
 synopsis:            HAR spec in Haskell
-description:         Data type of HAR spec
+description:
+    .
+    Data type of HAR spec
+    .
+    <http://www.softwareishard.com/blog/har-12-spec/>
+
 homepage:            https://github.com/freizl/har
 license:             BSD3
 license-file:        LICENSE
