@@ -13,7 +13,7 @@ import           HAR.Page      (Page)
 
 data Log = Log { version :: Text
                , creator :: Creator
-               , browser :: Browser
+               , browser :: Maybe Browser
                , pages   :: [Page]
                , entries :: [Entry]
                , comment :: Maybe Text
