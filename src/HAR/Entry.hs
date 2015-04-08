@@ -16,7 +16,7 @@ import           HAR.Timings   (Timings)
 
 data Entry = Entry { pageref         :: Maybe Text
                    , startedDateTime :: Text
-                   , time            :: Integer
+                   , time            :: Double
                    , request         :: Request
                    , response        :: Response
                    , cache           :: Maybe Cache
