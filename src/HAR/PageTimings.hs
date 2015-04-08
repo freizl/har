@@ -9,9 +9,10 @@ module HAR.PageTimings
 import           Data.Aeson.TH
 import           Data.Text     (Text)
 
-data PageTimings = PageTimings { onContentLoad :: Maybe Integer
-                               , onLoad        :: Maybe Integer
-                               , comment       :: Maybe Text
-                               } deriving (Show)
+data PageTimings = PageTimings
+                   { onContentLoad :: Maybe Double
+                   , onLoad        :: Maybe Double
+                   , comment       :: Maybe Text
+                   } deriving (Show)
 
 $(deriveJSON defaultOptions ''PageTimings)
