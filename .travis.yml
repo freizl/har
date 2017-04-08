@@ -30,4 +30,4 @@ install:
   - stack +RTS -N2 -RTS setup --no-terminal --skip-ghc-check
 
 script:
-  - stack --stack-yaml $(STACK_YAML).yaml build
+  - stack --stack-yaml $STACK_YAML build
