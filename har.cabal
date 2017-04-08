@@ -2,7 +2,7 @@
 -- see http://haskell.org/cabal/users-guide/
 
 name:                har
-version:             0.2.0
+version:             0.3.0
 synopsis:            HAR spec in Haskell
 description:
     .
