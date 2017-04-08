@@ -6,9 +6,7 @@ version:             0.2.0
 synopsis:            HAR spec in Haskell
 description:
     .
-    Data type of HAR spec
-    .
-    <http://www.softwareishard.com/blog/har-12-spec/>
+    Data type of HAR spec: <https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HAR/Overview.html>
 
 homepage:            https://github.com/freizl/har
 license:             BSD3
