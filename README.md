@@ -2,7 +2,9 @@
 
 ## Spec ##
 
-- [HAR 12 spec](http://www.softwareishard.com/blog/har-12-spec/)
+- [HAR 12 spec](https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HAR/Overview.html)
 
 ## TODO ##
-- [ ] `Typable`, `Traversable` ??
+- [ ] `Typable`, `Data` ?
+- [ ] `Generic` ?
+- [ ] Lens??
