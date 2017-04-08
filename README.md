@@ -1,4 +1,5 @@
-[![Build Status](https://secure.travis-ci.org/freizl/har.png?branch=master)](http://travis-ci.org/freizl/har)
+[![Build Status](https://secure.travis-ci.org/freizl/har.svg?branch=master)](http://travis-ci.org/freizl/har)
+[![Hackage](https://img.shields.io/hackage/v/har.svg)](https://hackage.haskell.org/package/har)
 
 ## Spec ##
 
