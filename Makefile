@@ -5,8 +5,11 @@ hlint:
 	hlint src/**/*.hs
 
 clean:
+	stack clean
 	cabal clean
 
 build: clean
-	cabal configure
-	cabal build
+	stack build
+
+watch:
+	stack build --file-watch
