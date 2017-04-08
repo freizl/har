@@ -15,11 +15,12 @@ license:             BSD3
 license-file:        LICENSE
 author:              Haisheng.Wu
 maintainer:          freizl@gmail.com
--- copyright:
+copyright:           @2015-2017 Haisheng Wu
 category:            Data
 build-type:          Simple
--- extra-source-files:
 cabal-version:       >=1.10
+tested-with:         GHC == 7.10.3, GHC == 8.0.1, GHC == 8.0.2
+-- extra-source-files:
 
 source-repository head
   type:     git
@@ -45,8 +46,6 @@ library
     HAR.Response
     HAR.Timings
 
-  -- other-modules:
-  -- other-extensions:
   build-depends:       base >=4.6 && <5.0
                      , aeson
                      , bytestring
