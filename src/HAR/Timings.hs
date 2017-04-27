@@ -9,13 +9,13 @@ module HAR.Timings
 import           Data.Aeson.TH
 import           Data.Text     (Text)
 
-data Timings = Timings { blocked :: Double
-                       , dns     :: Double
-                       , connect :: Double
+data Timings = Timings { blocked :: Maybe Double
+                       , dns     :: Maybe Double
+                       , connect :: Maybe Double
                        , send    :: Double
                        , wait    :: Double
                        , receive :: Double
-                       , ssl     :: Double
+                       , ssl     :: Maybe Double
                        , comment :: Maybe Text
                        } deriving (Show)
 
