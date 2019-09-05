@@ -3,7 +3,8 @@
 
 ## Spec ##
 
-- [HAR 12 spec](https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HAR/Overview.html)
+- http://www.softwareishard.com/blog/har-12-spec/
+- https://w3c.github.io/web-performance/specs/HAR/Overview.html
 
 ## TODO ##
 - [ ] `Typable`, `Data` ?
