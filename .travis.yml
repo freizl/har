@@ -10,8 +10,7 @@ sudo: false
 
 env:
   matrix:
-    - STACK_YAML=stack-6.13.yaml
-    - STACK_YAML=stack-7.18.yaml
+    - STACK_YAML=stack-12.28.yaml
     - STACK_YAML=stack.yaml
 
 cache:

@@ -1,4 +1,4 @@
-resolver: lts-8.8
+resolver: nightly-2022-10-06
 
 packages:
 - '.'
